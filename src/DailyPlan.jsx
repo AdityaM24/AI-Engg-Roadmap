@@ -5,8 +5,7 @@ const HOURS = "4–5 hrs";
 const schedule = [
   // ── PHASE 1: PYTHON FROM SCRATCH ─────────────────────────────
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 1, date: "Apr 13 (Mon)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 1,
     title: "Environment + Python Basics I",
     topics: ["Install Python 3.11, VSCode, Git. Understand virtualenv vs conda.", "Variables, types (int/float/str/bool/None), type casting", "Input/output, f-strings, string methods", "if/elif/else logic, comparison & logical operators"],
     practice: "Write a BMI calculator. Write a simple number guessing game.",
@@ -14,8 +13,7 @@ const schedule = [
     tag: "Python"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 2, date: "Apr 14 (Tue)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 2,
     title: "Python Basics II — Loops & Functions",
     topics: ["for loops, while loops, range(), break/continue", "Functions: def, return, default args, *args, **kwargs", "Scope: local vs global. Recursion basics.", "List comprehensions (most used Python pattern)"],
     practice: "FizzBuzz. Fibonacci with recursion. Flatten a nested list with comprehension.",
@@ -23,8 +21,7 @@ const schedule = [
     tag: "Python"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 3, date: "Apr 15 (Wed)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 3,
     title: "Data Structures — Lists, Dicts, Sets, Tuples",
     topics: ["List methods: append, pop, sort, slice", "Dict: get, items(), keys(), values(), defaultdict", "Set operations: union, intersection, difference", "Tuples: immutability and when to use them", "When to use which structure — interview bread & butter"],
     practice: "Count word frequency in a string (dict). Remove duplicates preserving order (set trick). LeetCode Easy: Two Sum.",
@@ -32,8 +29,7 @@ const schedule = [
     tag: "Python"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 4, date: "Apr 16 (Thu)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 4,
     title: "OOP — Classes & Objects",
     topics: ["class, __init__, self — what they actually mean", "Instance vs class variables", "Inheritance, super()", "Dunder methods: __str__, __repr__, __len__, __eq__", "Dataclasses (modern Python, used everywhere in ML code)"],
     practice: "Build a BankAccount class. Build a Stack using a class. Extend it with inheritance.",
@@ -41,8 +37,7 @@ const schedule = [
     tag: "Python"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 5, date: "Apr 17 (Fri)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 5,
     title: "File I/O, Error Handling, Modules",
     topics: ["open(), read/write files, with statement (context managers)", "try/except/finally, raising custom exceptions", "import, __name__ == '__main__', package structure", "JSON: json.loads / json.dumps — used in every API"],
     practice: "Read a CSV manually (no pandas). Write a JSON config parser. Build a simple logger.",
@@ -50,8 +45,7 @@ const schedule = [
     tag: "Python"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 6, date: "Apr 18 (Sat)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 6,
     title: "Python Power Features",
     topics: ["Decorators — what @wraps actually does, build one from scratch", "Generators: yield vs return, memory efficiency", "itertools: chain, groupby, islice — used in data pipelines", "Lambda, map, filter — know when NOT to use them"],
     practice: "Build a timing decorator. Write an infinite counter generator. Solve LeetCode: Valid Parentheses.",
@@ -59,8 +53,7 @@ const schedule = [
     tag: "Python"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 7, date: "Apr 19 (Sun)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 7,
     title: "Python Review + DSA Intro",
     topics: ["Revise Days 1–6: write 3 programs from memory without referencing notes", "Big-O notation: O(1), O(n), O(n²), O(log n) — what they mean", "Arrays vs Linked Lists mental model", "Python list is a dynamic array — implications for performance"],
     practice: "LeetCode: Contains Duplicate, Best Time to Buy/Sell Stock. Explain your solution's time complexity.",
@@ -69,8 +62,7 @@ const schedule = [
   },
   // ── PHASE 1 WEEK 2: NUMPY, PANDAS, SQL ────────────────────────
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 8, date: "Apr 20 (Mon)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 8,
     title: "NumPy — Arrays & Math",
     topics: ["ndarray vs Python list — why NumPy is 100x faster (vectorization)", "Array creation: zeros, ones, arange, linspace, random", "Indexing, slicing, boolean masking", "Broadcasting — the most confusing NumPy concept, master it", "dot product, transpose, reshape — used in every ML model"],
     practice: "Implement dot product from scratch. Normalize an array to 0-1. Solve 5 NumPy exercises from numpy.org.",
@@ -78,8 +70,7 @@ const schedule = [
     tag: "NumPy"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 9, date: "Apr 21 (Tue)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 9,
     title: "Pandas — Data Wrangling I",
     topics: ["Series vs DataFrame, creating from dict/list/CSV", "read_csv, head, info, describe, dtypes", "Selecting: loc vs iloc (people fail interviews on this)", "Filtering rows with conditions, .query()", "Handling nulls: isnull, fillna, dropna"],
     practice: "Load the Titanic dataset (Kaggle). Answer: survival rate by class, avg age by gender, null counts per column.",
@@ -87,8 +78,7 @@ const schedule = [
     tag: "Pandas"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 10, date: "Apr 22 (Wed)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 10,
     title: "Pandas — Data Wrangling II",
     topics: ["groupby + agg — the most used pattern in data analysis", "merge, join, concat — SQL joins in Pandas", "apply, map, lambda on columns", "pivot_table, value_counts, sort_values", "String operations: .str.contains, .str.split"],
     practice: "Kaggle Pandas lessons 4–6. Find top 5 cities by avg sales in a mock dataset you create.",
@@ -96,8 +86,7 @@ const schedule = [
     tag: "Pandas"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 11, date: "Apr 23 (Thu)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 11,
     title: "SQL — Foundations",
     topics: ["What is a relational database? Tables, rows, columns, primary/foreign keys", "SELECT, FROM, WHERE, ORDER BY, LIMIT", "AND/OR/NOT, IN, BETWEEN, LIKE, IS NULL", "Aggregate functions: COUNT, SUM, AVG, MIN, MAX", "GROUP BY + HAVING — and why HAVING ≠ WHERE"],
     practice: "SQLZoo: SELECT basics + SELECT from World (sections 1–4). LeetCode SQL Easy: Combine Two Tables.",
@@ -105,8 +94,7 @@ const schedule = [
     tag: "SQL"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 12, date: "Apr 24 (Fri)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 12,
     title: "SQL — JOINs & Subqueries",
     topics: ["INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN — with Venn diagram mental model", "Self joins (tricky interview question)", "Subqueries in WHERE, FROM, SELECT clauses", "CTEs: WITH clause — cleaner than subqueries", "UNION vs UNION ALL"],
     practice: "LeetCode SQL: Employees Earning More Than Managers. Second Highest Salary. Department Top Three Salaries.",
@@ -114,8 +102,7 @@ const schedule = [
     tag: "SQL"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 13, date: "Apr 25 (Sat)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 13,
     title: "SQL — Window Functions (Interview Gold)",
     topics: ["ROW_NUMBER, RANK, DENSE_RANK — differences and when each is used", "PARTITION BY: reset ranking per group", "LAG, LEAD: access previous/next row — used in time series", "FIRST_VALUE, LAST_VALUE", "Running totals with SUM() OVER (ORDER BY ...)"],
     practice: "LeetCode SQL Medium: Rank Scores. Department Highest Salary. Consecutive Numbers. Nth Highest Salary.",
@@ -123,8 +110,7 @@ const schedule = [
     tag: "SQL"
   },
   {
-    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347",
-    day: 14, date: "Apr 26 (Sun)",
+    phase: 1, phaseTitle: "Python From Scratch", phaseColor: "#FFB347", day: 14,
     title: "Visualization + Week Review",
     topics: ["Matplotlib: line, bar, scatter, histogram — just the essentials", "Seaborn: heatmap (correlation matrix), boxplot, pairplot", "What makes a good chart — axis labels, titles, colors", "EDA workflow: shape → types → nulls → distributions → correlations"],
     practice: "Full EDA on Titanic dataset. Create 5 meaningful charts. Write 3 insights in plain English.",
@@ -133,8 +119,7 @@ const schedule = [
   },
   // ── PHASE 2: ML FUNDAMENTALS ──────────────────────────────────
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 15, date: "Apr 27 (Mon)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 15,
     title: "ML Mindset + Linear Regression",
     topics: ["What is ML? Supervised vs Unsupervised vs Reinforcement — with real examples", "Training set, validation set, test set — WHY we split (data leakage explained)", "Linear regression: y = mx + b → cost function (MSE) → minimize it", "Gradient descent: intuition of 'rolling downhill'", "Implementing linear regression in pure numpy (no sklearn yet)"],
     practice: "Implement linear regression from scratch. Predict house prices on a toy dataset.",
@@ -142,8 +127,7 @@ const schedule = [
     tag: "ML"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 16, date: "Apr 28 (Tue)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 16,
     title: "Classification + Logistic Regression",
     topics: ["Classification vs regression — conceptual difference", "Logistic regression: sigmoid function, why it outputs probability", "Decision boundary intuition", "Loss function: Binary Cross-Entropy (why not MSE for classification)", "Metrics: Accuracy, Precision, Recall, F1 — when each matters (imbalanced data!)"],
     practice: "Sklearn logistic regression on Iris dataset. Plot confusion matrix. Explain why accuracy is misleading on imbalanced data.",
@@ -151,8 +135,7 @@ const schedule = [
     tag: "ML"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 17, date: "Apr 29 (Wed)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 17,
     title: "Decision Trees + Overfitting",
     topics: ["How a decision tree splits: information gain, Gini impurity", "Overfitting: model memorizes training data — visualize it", "Underfitting vs overfitting — the bias-variance tradeoff", "Regularization concept: constraining model complexity", "Pruning, max_depth, min_samples_split — hyperparameters"],
     practice: "Train a decision tree with no depth limit vs max_depth=3. Plot both. See overfitting visually.",
@@ -160,8 +143,7 @@ const schedule = [
     tag: "ML"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 18, date: "Apr 30 (Thu)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 18,
     title: "Ensemble Methods — RF + XGBoost",
     topics: ["Random Forest: bagging + feature randomness = why it beats single trees", "Boosting: XGBoost — trees built sequentially, each corrects previous errors", "Feature importance — what it means and what it doesn't", "SHAP values: explain individual predictions (you used this in ChurnSense!)", "When to use RF vs XGBoost vs Logistic Regression"],
     practice: "Train XGBoost on Titanic. Tune max_depth, learning_rate, n_estimators. Plot SHAP summary plot.",
@@ -169,8 +151,7 @@ const schedule = [
     tag: "ML"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 19, date: "May 1 (Fri)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 19,
     title: "Model Evaluation + Cross Validation",
     topics: ["Train/val/test split — golden rule: never touch test set until the end", "K-Fold cross validation: why it gives more reliable accuracy estimate", "ROC-AUC: what it measures, how to read the curve", "Hyperparameter tuning: GridSearchCV vs RandomizedSearchCV", "Sklearn Pipeline: prevent data leakage with transforms inside CV"],
     practice: "Build an Sklearn Pipeline: imputer → scaler → XGBoost. Run 5-fold CV. Report mean AUC ± std.",
@@ -178,8 +159,7 @@ const schedule = [
     tag: "ML"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 20, date: "May 2 (Sat)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 20,
     title: "Unsupervised Learning",
     topics: ["K-Means clustering: centroid algorithm, choosing k (elbow method)", "DBSCAN: density-based, handles odd shapes, no need to specify k", "PCA: dimensionality reduction, explained variance, when to use it", "t-SNE: for visualization only (cannot use for downstream ML)", "Real use cases: customer segmentation, anomaly detection, compression"],
     practice: "K-Means on Mall Customer dataset. PCA on MNIST (visualize in 2D). Compare t-SNE vs PCA plots.",
@@ -187,8 +167,7 @@ const schedule = [
     tag: "ML"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 21, date: "May 3 (Sun)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 21,
     title: "ML Math Foundations",
     topics: ["Linear algebra: vectors, matrices, dot product, matrix multiply — why neural nets are matrix math", "Calculus intuition: derivative = slope, partial derivative = slope in one direction", "Chain rule: why backpropagation works (conceptual, not formal proof)", "Probability: P(A|B) Bayes theorem, distributions (Normal, Bernoulli)", "Statistics: mean/median/std, correlation vs causation, central limit theorem"],
     practice: "Derive the gradient of MSE loss w.r.t. weights by hand. Implement a coin flip simulator verifying CLT.",
@@ -197,8 +176,7 @@ const schedule = [
   },
   // ── PHASE 2 WEEK 2: DEEP LEARNING ─────────────────────────────
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 22, date: "May 4 (Mon)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 22,
     title: "Neural Networks from Scratch",
     topics: ["Neuron = linear function + activation. Layer = many neurons.", "Activation functions: ReLU, Sigmoid, Softmax — when to use each", "Forward pass: input → hidden → output", "Loss functions: MSE (regression), Cross-Entropy (classification)", "Backpropagation: chain rule applied layer by layer"],
     practice: "Build a 2-layer neural network in pure numpy. Train it on XOR problem. No PyTorch/TF yet.",
@@ -206,8 +184,7 @@ const schedule = [
     tag: "DL"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 23, date: "May 5 (Tue)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 23,
     title: "PyTorch Fundamentals",
     topics: ["Tensor: PyTorch's numpy array + GPU support + autograd", "requires_grad, .backward(), .grad — automatic differentiation", "nn.Module, nn.Linear, nn.ReLU — building blocks", "Training loop: forward → loss → backward → optimizer.step()", "DataLoader, Dataset — batch training workflow"],
     practice: "Rebuild your numpy NN in PyTorch. Train a classifier on MNIST. Achieve >95% accuracy.",
@@ -215,8 +192,7 @@ const schedule = [
     tag: "PyTorch"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 24, date: "May 6 (Wed)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 24,
     title: "CNNs + Transfer Learning",
     topics: ["Convolution: filter sliding over image, detecting features", "MaxPooling: spatial downsampling", "CNN architecture: Conv → Pool → Conv → Pool → Flatten → FC", "Transfer learning: freeze pretrained weights, train only head", "torchvision models: ResNet, EfficientNet — load and fine-tune"],
     practice: "Fine-tune ResNet18 on CIFAR-10 (or any 2-class image dataset). Achieve >90% in <5 epochs using transfer learning.",
@@ -224,8 +200,7 @@ const schedule = [
     tag: "DL"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 25, date: "May 7 (Thu)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 25,
     title: "NLP Basics + Embeddings",
     topics: ["Tokenization: word, subword (BPE), character level — why subword wins", "Bag of Words, TF-IDF — old school but asked in interviews", "Word2Vec intuition: words as vectors, king - man + woman = queen", "Sentence embeddings: meaning as a vector in high-dim space", "Cosine similarity: how we measure semantic closeness"],
     practice: "TF-IDF on a news dataset. Visualize Word2Vec embeddings with t-SNE. Find top-5 similar words to 'bank'.",
@@ -233,8 +208,7 @@ const schedule = [
     tag: "NLP"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 26, date: "May 8 (Fri)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 26,
     title: "Transformers — How They Actually Work",
     topics: ["Attention mechanism: 'which words should I focus on when reading this word?'", "Self-attention: Q, K, V matrices — step by step with numbers", "Multi-head attention: multiple attention patterns simultaneously", "Positional encoding: transformers have no order by default", "Encoder-only (BERT) vs Decoder-only (GPT) vs Encoder-Decoder (T5)"],
     practice: "Read 'The Illustrated Transformer' by Jay Alammar end to end. Draw the architecture from memory.",
@@ -242,8 +216,7 @@ const schedule = [
     tag: "Transformers"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 27, date: "May 9 (Sat)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 27,
     title: "HuggingFace Ecosystem",
     topics: ["HuggingFace Hub: models, datasets, spaces — your new home", "Transformers library: pipeline(), AutoModel, AutoTokenizer", "Run inference: sentiment, NER, summarization, translation in 5 lines", "Datasets library: load_dataset, map, filter", "Spaces: deploy a demo for free — interviewers love a live demo link"],
     practice: "Build 3 pipelines: sentiment analysis, summarization, NER. Push a simple Gradio demo to HF Spaces.",
@@ -251,8 +224,7 @@ const schedule = [
     tag: "HuggingFace"
   },
   {
-    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA",
-    day: 28, date: "May 10 (Sun)",
+    phase: 2, phaseTitle: "ML Fundamentals", phaseColor: "#64FFDA", day: 28,
     title: "ML Project Day — ChurnSense Rebuild",
     topics: ["Rebuild ChurnSense end-to-end from scratch: EDA → feature eng → XGBoost → SHAP → FastAPI", "Goal: you should be able to explain EVERY line of code in an interview", "Add a proper README with architecture diagram", "Dockerize it. Make sure docker build && docker run actually works."],
     practice: "This IS the practice. Commit to GitHub with a clean, professional README.",
@@ -261,8 +233,7 @@ const schedule = [
   },
   // ── PHASE 3: GENAI & LLM ENGINEERING ─────────────────────────
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 29, date: "May 11 (Mon)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 29,
     title: "LLMs 101 — Karpathy Deep Dive Part 1",
     topics: ["Watch Karpathy Deep Dive (0:00–1:45hr): Pretraining — data collection, tokenization, Transformer I/O internals", "GPT-2 training walkthrough: what actually happens during training", "Llama 3.1 base model inference examples — what a base model looks like vs assistant", "Tokens: everything is tokens. 1 token ≈ 0.75 words. Tokenization quirks.", "Context window: what it is, why it matters, how it affects cost and quality"],
     practice: "Use the Groq API directly (it's free). Send 10 prompts varying temperature from 0 to 1. Try a base model vs instruct model. Observe differences.",
@@ -270,8 +241,7 @@ const schedule = [
     tag: "LLM"
   },
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 30, date: "May 12 (Tue)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 30,
     title: "LLMs 101 — Karpathy Deep Dive Part 2 + Prompting",
     topics: ["Watch Karpathy Deep Dive (1:45hr–end): Supervised fine-tuning, RLHF, DPO, DeepSeek-R1, reasoning models", "'LLM Psychology': hallucinations, tool use, knowledge vs working memory, jagged intelligence", "Temperature, top-p, top-k — controlling randomness, when to use each", "Prompting: zero-shot, few-shot, chain-of-thought, system vs user prompt", "Structured output: JSON mode, Instructor library. Prompt injection attacks."],
     practice: "Build a structured output extractor: given a job description, extract {role, skills, salary, location} as JSON using Instructor. Then try breaking it with a prompt injection.",
@@ -279,8 +249,7 @@ const schedule = [
     tag: "LLM"
   },
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 31, date: "May 13 (Wed)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 31,
     title: "RAG — Retrieval Augmented Generation",
     topics: ["Why RAG: LLMs hallucinate facts, RAG grounds them in real documents", "RAG pipeline: Documents → Chunks → Embeddings → Vector DB → Retrieve → Augment → Generate", "Chunking strategies: fixed-size, sentence, semantic — tradeoffs", "Embedding models: text-embedding-3-small, BGE, E5 — how to choose", "Vector databases: Qdrant, Chroma, FAISS — hands-on with at least one"],
     practice: "Build a basic RAG: ingest 3 PDFs about a topic, answer questions about them using Chroma + OpenAI/Groq.",
@@ -288,8 +257,7 @@ const schedule = [
     tag: "RAG"
   },
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 32, date: "May 14 (Thu)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 32,
     title: "Advanced RAG",
     topics: ["Naive RAG problems: low recall, irrelevant chunks, context overflow", "Hybrid search: BM25 (keyword) + dense (semantic) — best of both worlds", "Reranking: CrossEncoder reranker after initial retrieval", "HyDE: generate a hypothetical answer, then search for it", "Multi-query retrieval: generate 3 versions of query, merge results"],
     practice: "Upgrade yesterday's RAG: add hybrid search + reranker. Measure answer quality before/after.",
@@ -297,8 +265,7 @@ const schedule = [
     tag: "RAG"
   },
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 33, date: "May 15 (Fri)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 33,
     title: "LLM Agents — Foundations",
     topics: ["What is an agent? LLM + tools + memory + reasoning loop", "ReAct pattern: Reason → Act → Observe → Repeat", "Tool calling: how LLMs decide when/which tool to call", "Memory types: in-context (conversation), external (vector store), semantic (summaries)", "Agent failure modes: loops, hallucinated tool calls, context overflow"],
     practice: "Build a ReAct agent from scratch using only the raw LLM API (no framework). Tools: calculator, web search.",
@@ -306,8 +273,7 @@ const schedule = [
     tag: "Agents"
   },
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 34, date: "May 16 (Sat)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 34,
     title: "LangGraph Deep Dive",
     topics: ["StateGraph: nodes (functions) + edges (transitions) + shared state", "Conditional edges: routing based on LLM output or state", "Cycles: how to build loops that terminate safely", "Checkpointing: save/resume agent runs (production critical)", "Human-in-the-loop: interrupt graph for human approval"],
     practice: "Build a research agent in LangGraph: takes a question, searches web, synthesizes answer, asks human if confident enough.",
@@ -315,8 +281,7 @@ const schedule = [
     tag: "LangGraph"
   },
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 35, date: "May 17 (Sun)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 35,
     title: "Multi-Agent Systems",
     topics: ["Why multi-agent: specialized agents > one generalist agent", "Supervisor pattern: orchestrator routes to specialist sub-agents", "Parallel execution: fan-out nodes in LangGraph", "Agent communication: shared state vs message passing", "Your NL2SQL system: re-examine architecture, find weak points"],
     practice: "Build a 3-agent system: Planner → Researcher → Writer. Planner breaks task, Researcher gathers info, Writer drafts output.",
@@ -325,8 +290,7 @@ const schedule = [
   },
   // ── PHASE 3 WEEK 2: PRODUCTION + TRENDS ───────────────────────
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 36, date: "May 18 (Mon)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 36,
     title: "Fine-Tuning LLMs",
     topics: ["When to fine-tune: style/format adaptation, NOT for adding knowledge", "LoRA: Low-Rank Adaptation — train 1% of params, get 90% of the gain", "QLoRA: quantized LoRA — fine-tune 7B model on free Colab GPU", "DPO vs RLHF: newer, simpler alignment technique", "HuggingFace PEFT + TRL libraries for fine-tuning"],
     practice: "Fine-tune Llama 3.2 1B on a custom Q&A dataset using QLoRA on Colab. Push to HuggingFace Hub.",
@@ -334,8 +298,7 @@ const schedule = [
     tag: "Fine-tuning"
   },
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 37, date: "May 19 (Tue)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 37,
     title: "LLM Evaluation",
     topics: ["Why eval is hard: LLMs don't have a single right answer", "RAGAS: faithfulness, answer relevancy, context precision — for RAG systems", "LLM-as-judge: use GPT-4 to score another model's outputs", "G-EVAL framework: criteria-based evaluation with CoT", "Building an eval harness: dataset of Q&A pairs, automated scoring"],
     practice: "Build a RAGAS eval pipeline for your RAG system from Day 31. Score faithfulness + relevancy on 20 questions.",
@@ -343,8 +306,7 @@ const schedule = [
     tag: "Evals"
   },
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 38, date: "May 20 (Wed)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 38,
     title: "LLM Ops & Production",
     topics: ["LangSmith: tracing agent runs, debugging tool calls, latency tracking", "Caching: exact cache (same query) + semantic cache (similar query) — cost reduction", "Streaming: why users expect it, how to implement with SSE in FastAPI", "Cost optimization: prompt compression, smaller models for simple tasks, batching", "Rate limits & retry logic — production necessity"],
     practice: "Add LangSmith tracing to your LangGraph agent. Add streaming to your FastAPI endpoint. Add semantic caching with Redis.",
@@ -352,8 +314,7 @@ const schedule = [
     tag: "LLMOps"
   },
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 39, date: "May 21 (Thu)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 39,
     title: "Current AI Landscape 2025–26",
     topics: ["Frontier models: GPT-4o, Claude 3.5/3.7 Sonnet, Gemini 2.0 Flash, Llama 3.3 70B, Mistral Large", "Reasoning models: o3, Claude 3.7 extended thinking, DeepSeek R1 — test-time compute scaling", "Multimodal: vision+text+audio in same model — GPT-4V, Gemini, Llama Vision", "MCP (Model Context Protocol): Anthropic's standard for tool/resource integration", "Vibe coding tools: Cursor, Devin, GitHub Copilot — know how they work under the hood"],
     practice: "Make a comparison table: 5 frontier models × 6 attributes (context window, pricing, strengths, weaknesses, best use case, API).",
@@ -361,8 +322,7 @@ const schedule = [
     tag: "Trends"
   },
   {
-    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF",
-    day: 40, date: "May 22 (Fri)",
+    phase: 3, phaseTitle: "GenAI & LLM Engineering", phaseColor: "#B388FF", day: 40,
     title: "Capstone Project — NL2SQL Agent v2",
     topics: ["Rebuild your NL2SQL multi-agent system with everything you've learned", "Components: schema retriever (RAG) + query planner + SQL executor + error corrector + explainer", "Add: LangSmith tracing, streaming output, RAGAS evaluation suite, Docker deployment", "README: architecture diagram, example queries, benchmark results"],
     practice: "This IS the day. Code from scratch. This is your #1 interview demo project.",
@@ -371,8 +331,7 @@ const schedule = [
   },
   // ── PHASE 4: INTERVIEW PREP ────────────────────────────────────
   {
-    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B",
-    day: 41, date: "May 23 (Sat)",
+    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B", day: 41,
     title: "DSA Blitz — Arrays & Strings",
     topics: ["Two pointers pattern: sorted arrays, palindromes, container with most water", "Sliding window: max subarray, longest substring without repeat", "Prefix sums: range queries in O(1)", "String manipulation: anagrams, palindromes, pattern matching"],
     practice: "LeetCode: Valid Palindrome, 3Sum, Longest Substring Without Repeating Characters, Minimum Window Substring. All with time complexity analysis.",
@@ -380,8 +339,7 @@ const schedule = [
     tag: "DSA"
   },
   {
-    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B",
-    day: 42, date: "May 24 (Sun)",
+    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B", day: 42,
     title: "DSA Blitz — HashMaps & Stacks",
     topics: ["HashMap patterns: frequency count, grouping, two-sum variations", "Stack patterns: valid parentheses, monotonic stack, next greater element", "Queue: BFS pattern, sliding window maximum", "Heap: top-k elements, merge k sorted lists"],
     practice: "LeetCode: Group Anagrams, Top K Frequent Elements, Valid Parentheses, Daily Temperatures, Kth Largest Element.",
@@ -389,8 +347,7 @@ const schedule = [
     tag: "DSA"
   },
   {
-    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B",
-    day: 43, date: "May 25 (Mon)",
+    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B", day: 43,
     title: "DSA Blitz — Trees & Graphs",
     topics: ["Binary tree traversals: inorder, preorder, postorder (recursive + iterative)", "BFS with queue, DFS with stack/recursion", "Graph representations: adjacency list vs matrix", "Common patterns: level-order, lowest common ancestor, cycle detection"],
     practice: "LeetCode: Invert Binary Tree, Max Depth of Binary Tree, Number of Islands, Clone Graph, Course Schedule.",
@@ -398,8 +355,7 @@ const schedule = [
     tag: "DSA"
   },
   {
-    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B",
-    day: 44, date: "May 26 (Tue)",
+    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B", day: 44,
     title: "ML System Design",
     topics: ["Framework: Requirements → Data → Features → Model → Training → Serving → Monitoring", "Design: Recommendation system (like CrayFit — use your own project!)", "Design: Fraud detection system at scale", "Design: RAG chatbot with 1M documents", "Bottlenecks: latency, throughput, cost, cold start, data freshness"],
     practice: "Write a full system design doc (1 page) for a job recommendation engine. Include: feature store, model choice, serving strategy, monitoring.",
@@ -407,8 +363,7 @@ const schedule = [
     tag: "System Design"
   },
   {
-    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B",
-    day: 45, date: "May 27 (Wed)",
+    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B", day: 45,
     title: "Behavioral Interview Prep",
     topics: ["STAR format: Situation, Task, Action, Result — keep each under 2 minutes", "Story: ChurnSense — problem, approach, technical decisions, results (0.88 AUC)", "Story: NL2SQL multi-agent — why multi-agent, how LangGraph helps, what broke first", "Story: Geany Softech internship — what you owned, impact, what you'd do differently", "Story: CrayFit — hybrid recommendation, patent filing experience"],
     practice: "Record yourself answering: 'Tell me about yourself', 'Hardest technical problem', 'Why AI/ML?', 'Where you failed'. Watch back. Cringe. Improve.",
@@ -416,8 +371,7 @@ const schedule = [
     tag: "Behavioral"
   },
   {
-    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B",
-    day: 46, date: "May 28 (Thu)",
+    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B", day: 46,
     title: "GenAI Interview Deep Dive Prep",
     topics: ["Be ready to explain: transformer attention from scratch on whiteboard", "Be ready to design: a RAG system given constraints (latency <200ms, 100k docs)", "Be ready to debug: 'my RAG keeps hallucinating — what would you check?'", "Be ready to compare: fine-tuning vs RAG vs prompting — when each approach", "Be ready to code: implement cosine similarity, BM25 scoring, simple agent loop"],
     practice: "Answer these 10 questions out loud: (1) What is temperature? (2) Explain attention. (3) RAG vs fine-tuning. (4) What is a vector database? (5) How does LoRA work? (6) What is a context window? (7) How do you evaluate an LLM? (8) What is LangGraph? (9) What causes hallucination? (10) How would you reduce LLM API costs in production?",
@@ -425,8 +379,7 @@ const schedule = [
     tag: "Interview"
   },
   {
-    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B",
-    day: 47, date: "May 29 (Fri)",
+    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B", day: 47,
     title: "Portfolio Polish",
     topics: ["GitHub: 3 pinned repos with clean READMEs, architecture diagrams, GIF demos", "LinkedIn: headline = 'AI Engineer | LangGraph • RAG • MLOps | Graduating Jun 2026'", "Projects section: ChurnSense, NL2SQL Agent v2, CrayFit — each with 2-line description + tech stack", "HuggingFace profile: at least 1 model + 1 Gradio Space live", "Cold email template refresh: use your best-performing version"],
     practice: "Do it. Don't just plan it. Spend the full day on execution.",
@@ -434,8 +387,7 @@ const schedule = [
     tag: "Portfolio"
   },
   {
-    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B",
-    day: 48, date: "May 30 (Sat)",
+    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B", day: 48,
     title: "Mock Interview Day",
     topics: ["Mock 1 (1 hr): DSA — 2 medium LeetCode problems under time pressure. Use a timer.", "Mock 2 (1 hr): ML system design — design a content moderation system using LLMs", "Mock 3 (30 min): Behavioral — full STAR answers for all 4 project stories"],
     practice: "Use Pramp.com or ask a friend. If solo: set a 35-min timer, no hints, write code in a blank file.",
@@ -443,8 +395,7 @@ const schedule = [
     tag: "Mock"
   },
   {
-    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B",
-    day: 49, date: "May 31 (Sun)",
+    phase: 4, phaseTitle: "Interview Prep", phaseColor: "#FF6B6B", day: 49,
     title: "Final Review + Applications",
     topics: ["Revisit your weakest topic from the past 7 weeks. Fill that gap.", "Review your project list — can you explain all of them without notes?", "Send 10 targeted applications: Sarvam AI, Gnani.ai, Krutrim, Scale AI, AI startups you've been watching", "Write 3 personalized cold emails referencing specific company work"],
     practice: "Send the applications. Don't wait for perfection.",
@@ -454,10 +405,10 @@ const schedule = [
 ];
 
 const phaseConfig = {
-  1: { title: "Python From Scratch", color: "#FFB347", emoji: "🐍", days: "Apr 13–30" },
-  2: { title: "ML Fundamentals", color: "#64FFDA", emoji: "🧮", days: "Apr 27 – May 10" },
-  3: { title: "GenAI & LLM Eng.", color: "#B388FF", emoji: "🧠", days: "May 11–22" },
-  4: { title: "Interview Prep", color: "#FF6B6B", emoji: "🎯", days: "May 23–31" },
+  1: { title: "Python From Scratch", color: "#FFB347", emoji: "🐍", days: "Days 1–14" },
+  2: { title: "ML Fundamentals", color: "#64FFDA", emoji: "🧮", days: "Days 15–28" },
+  3: { title: "GenAI & LLM Eng.", color: "#B388FF", emoji: "🧠", days: "Days 29–40" },
+  4: { title: "Interview Prep", color: "#FF6B6B", emoji: "🎯", days: "Days 41–49" },
 };
 
 const tagColors = {
@@ -562,7 +513,7 @@ export default function DailyPlan() {
                 DAILY SCHEDULE
               </div>
               <div style={{ fontSize: 11, color: "#333", marginTop: 6, letterSpacing: 2 }}>
-                APR 13 → MAY 31 · 4–5 HRS/DAY · FROM SCRATCH
+                49 DAYS · 4–5 HRS/DAY · FROM SCRATCH
               </div>
             </div>
             <div style={{ textAlign: "right" }}>
@@ -647,9 +598,9 @@ export default function DailyPlan() {
                   {String(day.day).padStart(2, "0")}
                 </div>
 
-                {/* Date */}
+                {/* Day label */}
                 <div style={{ fontSize: 10, color: "#333", minWidth: 90, letterSpacing: 1 }}>
-                  {day.date}
+                  DAY {day.day}
                 </div>
 
                 {/* Tag */}
@@ -719,7 +670,7 @@ export default function DailyPlan() {
           border: "1px solid #1a1a1a", textAlign: "center",
         }}>
           <div style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: 24, color: "#333", letterSpacing: 3 }}>
-            JUNE 2026 — DEGREE + OFFERS 🎓
+            END OF ROADMAP — DEGREE + OFFERS 🎓
           </div>
           <div style={{ fontSize: 11, color: "#222", marginTop: 4 }}>
             tick every box. that's the whole plan.
